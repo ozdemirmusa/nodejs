@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+html {
+    background: url(http://upload.robinbrons.com/u/1362757499.png);
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.event {
+  width: 600px;
+  height: 250px;
+  background: #fff;
+  border: 1px solid #CCC;
+  border-radius: 2px;
+  margin: 50px;
+}
+
+.event > span {
+  display: block;
+  width: 30px;
+  background: #232323;  
+  position: relative;
+  top: -55px;
+  left: -15px;
+  
+  /* Text */
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 7px;
+  text-align: right;
+}
+.event > .info {
+  display: inline-block;
+  position: relative;
+  top: -75px;
+  left: 40px;
+  width: 250px;
+  
+  /* Text */
+  color: #232323;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.event > .price {
+  display: inline-block;
+  width: 60px;
+  position: relative;
+  top: -85px;
+  right: -200px; 
+  
+  /* Text */
+  color: #E35354;
+  text-align: center;
+  font-weight: 700;
+}
